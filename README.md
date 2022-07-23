@@ -9,7 +9,7 @@ Machine learning is the use of statistical algorithms to perform tasks such as l
 
 We oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. In this analysis we also use a combinatorial approach of oversampling and undersampling  the data using the SMOTEENN algorithm which combines the SMOTE and Edited Nearest Neighbors (ENN) algorithms. 
 
-Lastly, we also use two machine leanring models BalancedRandomForestClassifier and EasyEnsemleClassifier that reduce bias to predict credit risk rates. By calculating the Balaced Accuracy Score, Confusion Matrix, and Imbalanced Classification Report we can furthur analyze the outcomes of our Supervised Machine Learning models.
+Lastly, we also use two machine leanring models BalancedRandomForestClassifier and EasyEnsemleClassifier that reduce bias to predict credit risk rates. By calculating the _balaced accuracy scores_, _precision and recall scores_ as well as tools like _confusion matrix_ and _imbalanced classification reports_ we can furthur analyze the outcomes of our Supervised Machine Learning models.
 
 # Results:
 
