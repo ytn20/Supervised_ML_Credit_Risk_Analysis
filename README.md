@@ -1,10 +1,15 @@
 # Supervised_ML_Credit_Risk_Analysis
 
-This project is centered around Supervised Machine Learning.
 
-# Overview of the loan prediction risk analysis:
+# Purpose
 
-The purpose of this analysis is 
+The purpose of this project is to use different Supervised Machine Learning models to predict the credit card risk. 
+
+Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions. There are many different models—a model is a mathematical representation of something that happens in the real world. Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, we need to employ different techniques to train and evaluate models with unbalanced classes. 
+
+We oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. In this analysis we also use a combinatorial approach of oversampling and undersampling  the data using the SMOTEENN algorithm which combines the SMOTE and Edited Nearest Neighbors (ENN) algorithms. 
+
+Lastly, we also use two machine leanring models BalancedRandomForestClassifier and EasyEnsemleClassifier that reduce bias to predict credit risk rates. By calculating the Balaced Accuracy Score, Confusion Matrix, and Imbalanced Classification Report we can furthur analyze the outcomes of our Supervised Machine Learning models.
 
 # Results:
 
