@@ -55,29 +55,29 @@ Lastly, we also use two machine leanring models **BalancedRandomForestClassifier
 ### Easy Ensemble AdaBoost Classifier
 
 - The balanced accuracy scores for this model based on learning rate are as follows
-  **-  Learning rate:  5%*
-  -  Accuracy score (training): 0.997
-  -  Accuracy score (validation): 0.995
+  -  Learning rate:  5%
+   -  Accuracy score (training): 0.997
+   -  Accuracy score (validation): 0.995
 
-  **-  Learning rate:  1%*
+  - Learning rate:  1%
   -  Accuracy score (training): 0.997
   -  Accuracy score (validation): 0.995
   
-  -  **Learning rate:  25%  
-  -  Accuracy score (training): 0.996
-  -  Accuracy score (validation): 0.994
+  -  Learning rate:  25%  
+   -  Accuracy score (training): 0.996
+   -  Accuracy score (validation): 0.994
   
-  **-  Learning rate:  50%
-  -  Accuracy score (training): 0.996
-  -  Accuracy score (validation): 0.994
-  
-  **-  Learning rate:  75%
-  -  Accuracy score (training): 0.994
-  -  Accuracy score (validation): 0.991
+  -  Learning rate:  50%
+   -  Accuracy score (training): 0.996
+   -  Accuracy score (validation): 0.994
+
+  -  Learning rate:  75%
+   -  Accuracy score (training): 0.994
+   -  Accuracy score (validation): 0.991
   - 
-  -  **Learning rate:  100%
-  -  Accuracy score (training): 0.995
-  -  Accuracy score (validation): 0.994
+  -  Learning rate:  100%
+   -  Accuracy score (training): 0.995
+   -  Accuracy score (validation): 0.994
 
 - The balace accuracy score for this model is approximately 99.45%
 - The precision score for this model is approximately 48%
